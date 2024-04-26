@@ -6,7 +6,7 @@ export default function Weather() {
   const [loading, setLoading] = useState(false);
   const [weatherData, setWeatherData] = useState(null);
 
-  const apiKey = process.env.API_KEY;
+  const apiKey = "9a408a1af1e7dc132c522982291b5f71";
 
   async function fetchWeatherData(param) {
     setLoading(true);
